@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    margin: 1;
+    padding: 1;
+}
+
+header {
+    background-color: #333;
+    color: #ffc107;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-family: fantasy;
+}
+
+h1 {
+    margin: 1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 50%;
+}
+
+p {
+    margin: 3px 0;
+    line-height: 1.5;
+}
+
+a {
+    color: #333;
+    background-color: #ffc107;
+    padding: 3px;
+    border-spacing: 1cm 2em;
+    border-radius: 13px;
+}
+
+a:hover {
+    background-color: #ff9800;
+}
+/* This is a CSS comment. Put your CSS styling below this line */
